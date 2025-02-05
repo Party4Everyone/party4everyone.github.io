@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party4Everyone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Press Start 2P', cursive;
+            background-color: #ffccff;
+            text-align: center;
+        }
+        .top-bar {
+            background-color: #ff66b2;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            font-size: 24px;
+            color: white;
+            text-shadow: 2px 2px 2px #b30086;
+            margin-left: 20px;
+        }
+        .copy-button {
+            margin-top: 20px;
+            padding: 15px 20px;
+            font-size: 16px;
+            font-family: 'Press Start 2P', cursive;
+            background-color: #ff66b2;
+            color: white;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        .copy-button:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script>
+        function copyServerIP() {
+            alert("Server Still In Development");
+        }
+    </script>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">Party4Everyone</div>
+    </div>
+    <button class="copy-button" onclick="copyServerIP()">Click To Copy Server IP</button>
+</body>
+</html>
